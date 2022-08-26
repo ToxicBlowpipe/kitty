@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+    <p>
+      if you press this button, then youre a real pice of work 
+    </p>
+    
+    
+    <button class="dont-button" type="button" onclick="alert('damn, you did it..')">
+    dont
+    </button>
+    
+    <p> 
+      hello there
+    </p>
+    
+    <a href="https://www.youtube.com/watch?v=zL19uMsnpSU/"
+    target="_blank">
+      link to youtube
+    </a>
+    
+    
+    <style>
+      .sub-button {
+        background-color:rgb(200, 0, 0);
+        color:white;
+        border:none;
+        height: 36px;
+        width: 110;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 16px;
+        transition: box-shadow .5s;
+        margin-right: 20px;
+      
+        
+       }
+       
+       .sub-button:hover {background-color: green;
+        box-shadow: 5px 5px 5px black;
+      }
+      
+      .sub-button:active {background-color: blue;}
+    
+      
+      .dont-button:hover {opacity: 0;}
+    
+       .dont-button{
+        background-color:black;
+        color: white;
+        border-color: white;
+        border-width: 6px;
+        cursor: crosshair;
+        font-weight: bold;
+        font-style: italic;
+        transition: opacity 2s;
+        
+        }
+
+        body{background-color: darkorange;}
+    
+    </style>
+    
+    
+    <button type="button" onclick="getElementById('demo').innerHTML=Date()"
+     class="sub-button">
+    SUBSCRIBE</button>
+    
+      <p id="demo"></p>
+
+      <p>You encounter a magical kitty...</p>
+
+      <img src="pictures/kitty/kitty.JPG"
+       alt="You encounter a magical kitty" width="300px height 300px">
+
+
+      <iframe src="silence.mp3" allow="autoplay" id="audio" hidden ></iframe>
+    <!-- <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none;"></iframe> -->
+    <audio id="player" controls autoplay>
+        <source src="Downloads/zasplat fantasy.mp3" 
+        type="audio/mpeg">
+      </audio>
+
+
+
+  </body>
+</html>
+
+
+
+
+
+  
